@@ -20,36 +20,46 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-       // profileImageView.isHidden = true
-        
-        //profileCommentLabel.isHidden = true
+        //profileImageView.isHidden = true
+       //profileCommentLabel.isHidden = true
         
     }
 
     @IBAction func tapButton1(){
         profileImageView.image =  UIImage(named:  "philImage")
         profileLabel.text = "名前"
-        profileCommentLabel.text = "iPhoneメンターのフィルだよ"
+        profileCommentLabel.text = "iPhoneメンターのシエルだよ"
     }
     
     @IBAction func tapButton2(){
-        profileImageView.image =  UIImage(named:  "trackImage")
+        profileImageView.image =  UIImage(named:  "kyotoImage")
         profileLabel.text = "スポーツ"
-        profileCommentLabel.text = "陸上競技が好きで、走り幅跳びが得意"
+        profileCommentLabel.text = "京都をひたすら歩きます。"
     }
   
-
-    
     @IBAction func tapButton3(){
-        profileImageView.image =  UIImage(named:  "appleImage")
+        profileImageView.image =  UIImage(named:  "sweetsImage")
         profileLabel.text = "好きな食べ物"
-        profileCommentLabel.text = "リンゴが好きで、いつも持ち歩いている"
+        profileCommentLabel.text = "マカロンが大好物。"
     }
     
     @IBAction func tapButton4(){
-        profileImageView.image =  UIImage(named:  "flightImage")
+        profileImageView.image =  UIImage(named:  "cameraImage")
         profileLabel.text = "趣味"
-        profileCommentLabel.text = "飛行機に乗って、空を散歩すること"
+        profileCommentLabel.text = "カメラ！！！写真もカメラも好き"
     }
+    
+    @IBAction func tapButton5(){
+          profileImageView.image =  UIImage(named:  "cafeImage")
+          profileLabel.text = "カフェ"
+          profileCommentLabel.text = "お気に入りのカフェ"
+      }
+    
+    @IBAction func tapButton6(){
+          profileImageView.image =  UIImage(named:  "kyoseraImage")
+          profileLabel.text = "お気に入りの場所"
+          profileCommentLabel.text = "京セラ美術館。去年できてから何回も行っています"
+      }
+    
 }
 
